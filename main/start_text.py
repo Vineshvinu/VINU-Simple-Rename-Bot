@@ -7,9 +7,9 @@ from config import ADMIN
 async def start_cmd(bot, msg):
     txt="About Owner"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/rai_info17")
+        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/THM_OTT")
         ],[
-        InlineKeyboardButton("🧩 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/raixchat")
+        InlineKeyboardButton("🧩 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/THM_OTT")
     ]])
     if msg.from_user.id != ADMIN:
         await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -21,7 +21,7 @@ async def start_cmd(bot, msg):
 async def start(bot, msg, cb=True):   
     txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://github.com/ritheshrkrm>Rithesh</a></b>"                                     
     button= [[
-        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/rai_info17")
+        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/THM_OTT")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
         InlineKeyboardButton("📡 About", callback_data="about") 
